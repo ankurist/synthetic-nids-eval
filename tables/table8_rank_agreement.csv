@@ -1,0 +1,17 @@
+dataset,fidelity,utility,kendall_tau
+CIC,ks,r3_macro_f1,0.6666666666666669
+CIC,ks,r3_pr_auc,0.6666666666666669
+CIC,w1,r3_macro_f1,1.0
+CIC,w1,r3_pr_auc,1.0
+CIC,corr_gap,r3_macro_f1,0.6666666666666669
+CIC,corr_gap,r3_pr_auc,0.6666666666666669
+CIC,probe_auc,r3_macro_f1,1.0
+CIC,probe_auc,r3_pr_auc,1.0
+UNSW,ks,r3_macro_f1,0.3333333333333334
+UNSW,ks,r3_pr_auc,0.3333333333333334
+UNSW,w1,r3_macro_f1,0.3333333333333334
+UNSW,w1,r3_pr_auc,0.3333333333333334
+UNSW,corr_gap,r3_macro_f1,1.0
+UNSW,corr_gap,r3_pr_auc,1.0
+UNSW,probe_auc,r3_macro_f1,0.6666666666666669
+UNSW,probe_auc,r3_pr_auc,0.6666666666666669

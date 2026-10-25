@@ -1,0 +1,9 @@
+generator,detector,equivalence,p_tost_holm
+SMOTE,RF,equivalent,6.3157654063283886e-06
+SMOTE,XGB,equivalent,1.3392179128990378e-06
+Copula,RF,equivalent,1.2744854478887924e-07
+Copula,XGB,equivalent,1.444324984278822e-06
+CTGAN,RF,equivalent,6.3157654063283886e-06
+CTGAN,XGB,equivalent,1.7925753530434463e-06
+TVAE,RF,equivalent,1.660118590782918e-06
+TVAE,XGB,equivalent,6.3157654063283886e-06

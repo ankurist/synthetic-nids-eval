@@ -1,0 +1,130 @@
+{
+ "dataset": "cicids2017",
+ "files": {
+  "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv": {
+   "rows_read": 225745,
+   "dropped_nan_inf": 34,
+   "dropped_duplicates": 2629,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 32,
+    "DDoS": 2
+   },
+   "rows_after_dedup": 223082
+  },
+  "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv": {
+   "rows_read": 286467,
+   "dropped_nan_inf": 371,
+   "dropped_duplicates": 72319,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 245,
+    "PortScan": 126
+   },
+   "rows_after_dedup": 213777
+  },
+  "Friday-WorkingHours-Morning.pcap_ISCX.csv": {
+   "rows_read": 191033,
+   "dropped_nan_inf": 122,
+   "dropped_duplicates": 6880,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 112,
+    "Bot": 10
+   },
+   "rows_after_dedup": 184031
+  },
+  "Monday-WorkingHours.pcap_ISCX.csv": {
+   "rows_read": 529918,
+   "dropped_nan_inf": 437,
+   "dropped_duplicates": 26910,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 437
+   },
+   "rows_after_dedup": 502571
+  },
+  "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv": {
+   "rows_read": 288602,
+   "dropped_nan_inf": 207,
+   "dropped_duplicates": 35631,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 207
+   },
+   "rows_after_dedup": 252764
+  },
+  "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv": {
+   "rows_read": 458968,
+   "dropped_nan_inf": 288737,
+   "dropped_duplicates": 6078,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 135,
+    "nan": 288602
+   },
+   "rows_after_dedup": 164153
+  },
+  "Tuesday-WorkingHours.pcap_ISCX.csv": {
+   "rows_read": 445909,
+   "dropped_nan_inf": 264,
+   "dropped_duplicates": 24043,
+   "dropped_nan_inf_by_label": {
+    "BENIGN": 261,
+    "FTP-Patator": 3
+   },
+   "rows_after_dedup": 421602
+  },
+  "Wednesday-workingHours.pcap_ISCX.csv": {
+   "rows_read": 692703,
+   "dropped_nan_inf": 1297,
+   "dropped_duplicates": 80953,
+   "dropped_nan_inf_by_label": {
+    "DoS Hulk": 949,
+    "BENIGN": 348
+   },
+   "rows_after_dedup": 610453
+  }
+ },
+ "natural_counts_after_dedup": {
+  "DoS/DDoS": 321744,
+  "Benign": 2146707,
+  "PortScan": 90694,
+  "Rare Attack": 1995,
+  "Web Attack": 2143,
+  "Brute Force": 9150
+ },
+ "dups_removed_across_files": 4782,
+ "rows_conflicting_any_category": 54,
+ "rows_conflicting_benign_vs_attack": 54,
+ "conflicting_rows_by_category": {
+  "Benign": 27,
+  "PortScan": 26,
+  "DoS/DDoS": 1
+ },
+ "class_counts_before_conflict_drop": {
+  "Benign": 395218,
+  "DoS/DDoS": 60000,
+  "PortScan": 20000,
+  "Brute Force": 9150,
+  "Web Attack": 2143,
+  "Rare Attack": 1995
+ },
+ "conflict_policy": "binary",
+ "conflicting_rows_dropped": 54,
+ "merged_into_rare_attack": [],
+ "n_rows": 488452,
+ "n_numeric_features": 78,
+ "n_categorical_features": 0,
+ "class_counts_in_clean_file": {
+  "Benign": 395191,
+  "DoS/DDoS": 59999,
+  "PortScan": 19974,
+  "Brute Force": 9150,
+  "Web Attack": 2143,
+  "Rare Attack": 1995
+ },
+ "attack_share": 0.19093175992728048,
+ "caps_used": {
+  "Benign": 50000,
+  "DoS/DDoS": 30000,
+  "PortScan": 20000,
+  "Brute Force": 10000,
+  "Rare Attack": 2000,
+  "Web Attack": 10000
+ }
+}

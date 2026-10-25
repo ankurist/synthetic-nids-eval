@@ -1,0 +1,11 @@
+# Core (data processing, detectors, statistics)
+numpy>=1.24
+pandas>=2.0
+pyarrow>=12.0
+scipy>=1.10
+scikit-learn>=1.3
+xgboost>=2.0
+matplotlib>=3.7
+# Deep tabular generators (CTGAN, TVAE); not needed for SMOTE, the Gaussian copula or reproduce_tables.py
+torch>=2.0
+ctgan>=0.7

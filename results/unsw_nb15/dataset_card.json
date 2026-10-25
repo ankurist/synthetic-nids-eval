@@ -1,0 +1,78 @@
+{
+ "dataset": "unsw_nb15",
+ "files": {
+  "UNSW_NB15_testing-set.csv": {
+   "rows_read": 82332,
+   "dropped_nan_inf": 0,
+   "dropped_duplicates": 26387,
+   "dropped_nan_inf_by_label": {},
+   "rows_after_dedup": 55945
+  },
+  "UNSW_NB15_training-set.csv": {
+   "rows_read": 175341,
+   "dropped_nan_inf": 0,
+   "dropped_duplicates": 67601,
+   "dropped_nan_inf_by_label": {},
+   "rows_after_dedup": 107740
+  }
+ },
+ "natural_counts_after_dedup": {
+  "Benign": 86096,
+  "Exploits": 27453,
+  "Fuzzers": 20988,
+  "Generic": 7838,
+  "Reconnaissance": 10225,
+  "DoS": 5524,
+  "Analysis": 2040,
+  "Shellcode": 1469,
+  "Backdoor": 1881,
+  "Worms": 171
+ },
+ "test_rows_removed_because_identical_to_train": 940,
+ "rows_conflicting_any_category": 11506,
+ "rows_conflicting_benign_vs_attack": 829,
+ "conflicting_rows_by_category": {
+  "Fuzzers": 2211,
+  "Exploits": 1983,
+  "DoS": 1876,
+  "Analysis": 1582,
+  "Reconnaissance": 1572,
+  "Backdoor": 1530,
+  "Benign": 414,
+  "Generic": 316,
+  "Worms": 12,
+  "Shellcode": 10
+ },
+ "class_counts_before_conflict_drop": {
+  "Benign": 85722,
+  "Exploits": 27434,
+  "Fuzzers": 20960,
+  "Reconnaissance": 9991,
+  "Generic": 7599,
+  "DoS": 5500,
+  "Analysis": 2032,
+  "Backdoor": 1880,
+  "Shellcode": 1456,
+  "Worms": 171
+ },
+ "conflict_policy": "binary",
+ "conflicting_rows_dropped": 829,
+ "merged_into_rare_attack": [],
+ "n_rows": 161916,
+ "n_numeric_features": 39,
+ "n_categorical_features": 3,
+ "class_counts_in_clean_file": {
+  "Benign": 85308,
+  "Exploits": 27434,
+  "Fuzzers": 20548,
+  "Reconnaissance": 9991,
+  "Generic": 7599,
+  "DoS": 5500,
+  "Analysis": 2032,
+  "Backdoor": 1880,
+  "Shellcode": 1453,
+  "Worms": 171
+ },
+ "attack_share": 0.47313421774253317,
+ "caps_used": null
+}

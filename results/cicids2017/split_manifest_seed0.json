@@ -1,0 +1,41 @@
+{
+ "seed": 0,
+ "split_mode": "random",
+ "official": false,
+ "train": {
+  "n": 81548,
+  "by_class": {
+   "Benign": 36000,
+   "DoS/DDoS": 21600,
+   "PortScan": 14381,
+   "Brute Force": 6588,
+   "Web Attack": 1543,
+   "Rare Attack": 1436
+  },
+  "sha256": "2fc322b23db6bacc2e2f5c252256b5df1813ee4b299b6c1e16737a7e05c9d7f9"
+ },
+ "val": {
+  "n": 9061,
+  "by_class": {
+   "Benign": 4000,
+   "DoS/DDoS": 2400,
+   "PortScan": 1598,
+   "Brute Force": 732,
+   "Web Attack": 171,
+   "Rare Attack": 160
+  },
+  "sha256": "90cd8fc77c44b832d5c6c35aca953f8de7097c095c60f88935c899ac94738fc9"
+ },
+ "test": {
+  "n": 22653,
+  "by_class": {
+   "Benign": 10000,
+   "DoS/DDoS": 6000,
+   "PortScan": 3995,
+   "Brute Force": 1830,
+   "Web Attack": 429,
+   "Rare Attack": 399
+  },
+  "sha256": "83058f09198f877c1ff052e3279498067cee5f08537a7d37cf0ae817d2b46eb8"
+ }
+}

@@ -1,0 +1,13 @@
+step,CIC-IDS2017,UNSW-NB15 (train / test partition)
+rows read,3119345,175341 / 82332
+blank rows removed,288602,0 / 0
+non-finite rows removed,2867,0 / 0
+exact duplicates removed,260225,67601 / 26387
+exact duplicate share (%),9.2,38.6 / 32.0
+test rows identical to train removed,0,0 / 940
+benign-vs-attack conflicts removed,54,640 / 189
+rows with any label conflict,54,11506
+attack-vs-attack conflicts kept,0,10677
+rows used (per seed / partitions),113262,107100 / 54816
+train / val / test,81548 / 9061 / 22653,96390 / 10710 / 54816
+test attack share (%),55.9,38.6

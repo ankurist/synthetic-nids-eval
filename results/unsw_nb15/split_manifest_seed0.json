@@ -1,0 +1,53 @@
+{
+ "seed": 0,
+ "split_mode": "random",
+ "official": true,
+ "train": {
+  "n": 96390,
+  "by_class": {
+   "Benign": 46481,
+   "Exploits": 17860,
+   "Fuzzers": 14181,
+   "Reconnaissance": 6770,
+   "Generic": 3763,
+   "DoS": 3425,
+   "Analysis": 1435,
+   "Backdoor": 1382,
+   "Shellcode": 979,
+   "Worms": 114
+  },
+  "sha256": "95898035b2036d6c6ae6681c9072d45c67b20850e6f2ced8951388796528a3d3"
+ },
+ "val": {
+  "n": 10710,
+  "by_class": {
+   "Benign": 5165,
+   "Exploits": 1984,
+   "Fuzzers": 1576,
+   "Reconnaissance": 752,
+   "Generic": 418,
+   "DoS": 381,
+   "Analysis": 159,
+   "Backdoor": 153,
+   "Shellcode": 109,
+   "Worms": 13
+  },
+  "sha256": "685e1ca39a85e8d5406a5116edf49551f7440e5f96749e74fd5aa730ac01854b"
+ },
+ "test": {
+  "n": 54816,
+  "by_class": {
+   "Benign": 33662,
+   "Exploits": 7590,
+   "Fuzzers": 4791,
+   "Generic": 3418,
+   "Reconnaissance": 2469,
+   "DoS": 1694,
+   "Analysis": 438,
+   "Shellcode": 365,
+   "Backdoor": 345,
+   "Worms": 44
+  },
+  "sha256": "2f7c98525cbf668e7e8a77fe448e37cee73ba53196e22e3e10e10dececaf8cc1"
+ }
+}
